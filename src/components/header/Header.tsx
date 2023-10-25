@@ -22,7 +22,9 @@ const Header = () => {
             </li>
             <li>Courses</li>
             <li>Careers</li>
-            <li>Blog</li>
+            <li>
+              <Link href={"/"}>Blog</Link>
+            </li>
             <li>About Us</li>
           </ul>
           <div className="flex gap-3 items-center">
