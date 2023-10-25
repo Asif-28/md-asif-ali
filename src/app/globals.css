@@ -9,5 +9,5 @@ body {
 }
 
 .section {
-  @apply max-w-[1300px] mx-auto py-14;
+  @apply max-w-[1300px] mx-auto py-16;
 }

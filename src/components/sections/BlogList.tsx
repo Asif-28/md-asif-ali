@@ -11,7 +11,7 @@ const images = [
 const BlogList = () => {
   return (
     <section className="section">
-      <h2 className="text-2xl font-bold">Reading blog list</h2>
+      <h2 className="text-[22px] font-bold">Reading blog list</h2>
       <div className="grid pt-6 grid-cols-4 gap-4">
         {images.map((item) => (
           <div className="relative" key={item.id}>

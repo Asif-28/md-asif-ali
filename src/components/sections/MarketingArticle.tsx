@@ -57,13 +57,13 @@ const MarketingArticle = () => {
     <section>
       <main className="section">
         <div className="flex justify-between">
-          <h1 className="text-xl font-medium">Marketing Articles</h1>
+          <h1 className="text-2xl font-medium">Marketing Articles</h1>
           <p className="text-greenish font-bold pr-2 cursor-pointer">See all</p>
         </div>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 pt-6">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pt-6 lg:pb-[4.5rem]">
           {data.map((item) => (
             <div
-              className="bg-[#FFFFFF] max-w-[20rem] shadow-2xl cursor-pointer px-3"
+              className="bg-[#FFFFFF] max-w-[21rem] shadow-xl cursor-pointer px-4 rounded-xl py-6"
               key={item.id}
             >
               <div className="flex justify-center items-center">
@@ -89,26 +89,30 @@ const MarketingArticle = () => {
                     src={`/img/time.png`}
                     alt="square"
                     height={10}
-                    width={20}
+                    width={18}
                   />
                   <h3 className="text-[#696984] text-[14px]">Month</h3>
                 </div>
               </div>
-              <h1 className="py-5 font-medium text-[#252641]">{item.title}</h1>
-              <p>{item.desc}</p>
+              <h1 className="py-5 font-medium text-[#252641] text-[20px]">
+                {item.title}
+              </h1>
+              <p className="pb-5 text-[#696984] leading-loose">{item.desc}</p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
                   <Image
                     src={`${item.logo}`}
                     alt="logo"
-                    height={60}
-                    width={60}
+                    height={40}
+                    width={40}
                   />
-                  <h3>{item.name}</h3>
+                  <h3 className="font-medium">{item.name}</h3>
                 </div>
-                <div className="flex items-end">
-                  <h4>{item.price}</h4>
-                  <h3>{item.newprice}</h3>
+                <div className="flex gap-3 items-end">
+                  <h4 className="italic font-light">{item.price}</h4>
+                  <h3 className="font-bold text-greenish text-xl">
+                    {item.newprice}
+                  </h3>
                 </div>
               </div>
             </div>

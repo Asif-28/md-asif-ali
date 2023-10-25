@@ -29,7 +29,7 @@ const RelatedBlog = () => {
     <section className="bg-lightblue">
       <main className="section">
         <div className="flex justify-between">
-          <h1 className="text-xl font-medium">Related Blog</h1>
+          <h1 className="text-2xl font-medium">Related Blog</h1>
           <p className="text-greenish font-bold pr-2 cursor-pointer">See all</p>
         </div>
         <div className="flex items-center justify-between pt-6">
@@ -46,7 +46,7 @@ const RelatedBlog = () => {
                   width={650}
                 />
               </div>
-              <h1 className="text-[18px] font-medium text-[#252641] pt-5 pb-5">
+              <h1 className="text-[20px] font-medium text-[#252641] pt-5 pb-5">
                 {item.title}
               </h1>
               <div className="flex items-center gap-4">
