@@ -28,7 +28,7 @@ const Footer = () => {
             </button>
           </div>
         </div>
-        <div className="text-[#B2B3CF] font-normal text-[18px] flex flex-col justify-center items-center">
+        <div className="text-[#B2B3CF] font-normal text-[16px] flex flex-col justify-center items-center">
           <ul className="flex gap-5">
             <li>Career</li>
             <Image src={`/img/line_2.png`} alt="logo" height={10} width={1} />

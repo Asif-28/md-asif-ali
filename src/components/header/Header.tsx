@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -16,7 +17,9 @@ const Header = () => {
         </div>
         <div className="flex gap-20 items-center">
           <ul className="flex gap-10 items-center font-normal cursor-pointer">
-            <li>Home</li>
+            <li>
+              <Link href={"/"}>Home</Link>
+            </li>
             <li>Courses</li>
             <li>Careers</li>
             <li>Blog</li>
@@ -29,7 +32,7 @@ const Header = () => {
               height={60}
               width={60}
             />
-            <h3>Lina</h3>
+            <h3 className="font-medium text-[#000000]">Lina</h3>
 
             <Image
               className="cursor-pointer"
