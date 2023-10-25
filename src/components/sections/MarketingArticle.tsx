@@ -91,13 +91,13 @@ const MarketingArticle = () => {
                     height={10}
                     width={18}
                   />
-                  <h3 className="text-[#696984] text-[14px]">Month</h3>
+                  <h3 className="text-[#696984] text-[14px]">{item.time}</h3>
                 </div>
               </div>
               <h1 className="py-5 font-medium text-[#252641] text-[20px]">
                 {item.title}
               </h1>
-              <p className="pb-5 text-[#696984] leading-loose">{item.desc}</p>
+              <p className="pb-5 text-[#696984] leading-relaxed">{item.desc}</p>
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-4">
                   <Image

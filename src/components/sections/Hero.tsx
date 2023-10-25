@@ -19,7 +19,7 @@ const Hero = () => {
             eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing
             elit, sed do eiusmod tempor
           </p>
-          <button className="text-[15px] text-[#fff] bg-greenish px-4 py-3 rounded-lg font-semibold">
+          <button className="text-[15px] text-[#fff] bg-greenish px-5 py-3 rounded-lg font-semibold">
             <Link href={`/blogdetails`}> Start learning now</Link>
           </button>
         </div>
