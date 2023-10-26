@@ -14,7 +14,7 @@ const data = [
   },
   {
     id: 2,
-    img: "/img/Related_2.png",
+    img: "/img/related_2.png",
     title:
       "Class adds $30 million to its balance sheet for a Zoom-friendly edtech solution",
     logo: "/img/header_img.png",
