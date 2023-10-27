@@ -29,7 +29,9 @@ const RelatedBlog = () => {
               </h1>
               <div className="flex items-center gap-4">
                 <Image src={`${item.logo}`} alt="logo" height={60} width={60} />
-                <h3 className="text-[#000000] font-medium">{item.name}</h3>
+                <h3 className="text-[#000000] text-lg font-medium">
+                  {item.name}
+                </h3>
               </div>
               <p className="pt-4 pb-10 text-[#696984] md:text-lg">
                 {item.desc}
