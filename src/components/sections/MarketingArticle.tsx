@@ -1,63 +1,13 @@
 import Image from "next/image";
 import React from "react";
-
-const data = [
-  {
-    id: 1,
-    img: "/img/MA_1.png",
-    design: "design",
-    time: "3 Month",
-    title: "AWS Certified solutions Architect",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
-    logo: "/img/header_img.png",
-    name: "Lina",
-    price: "$100",
-    newprice: "$80",
-  },
-  {
-    id: 2,
-    img: "/img/MA_2.png",
-    design: "design",
-    time: "3 Month",
-    title: "AWS Certified solutions Architect",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
-    logo: "/img/header_img.png",
-    name: "Lina",
-    price: "$100",
-    newprice: "$80",
-  },
-  {
-    id: 3,
-    img: "/img/MA_3.png",
-    design: "design",
-    time: "3 Month",
-    title: "AWS Certified solutions Architect",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
-    logo: "/img/header_img.png",
-    name: "Lina",
-    price: "$100",
-    newprice: "$80",
-  },
-  {
-    id: 4,
-    img: "/img/MA_4.png",
-    design: "design",
-    time: "3 Month",
-    title: "AWS Certified solutions Architect",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipising elit, sed do eiusmod tempor",
-    logo: "/img/header_img.png",
-    name: "Lina",
-    price: "$100",
-    newprice: "$80",
-  },
-];
+import { data } from "@/constant/Constant";
 
 const MarketingArticle = () => {
   return (
     <section>
       <main className="section">
         <div className="flex justify-between">
-          <h1 className="text-2xl font-medium">Marketing Articles</h1>
+          <h1 className="text-3xl font-medium">Marketing Articles</h1>
           <p className="text-greenish font-bold pr-2 cursor-pointer">See all</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 pt-6 lg:pb-[4.5rem]">

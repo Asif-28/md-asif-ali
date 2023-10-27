@@ -11,10 +11,10 @@ const Hero = () => {
             By Themadbrains in
             <span className="text-greenish font-bold"> inspiration</span>
           </h3>
-          <h1 className="text-left text-4xl font-semibold text-darkblue leading-normal py-4 w-[75%]">
+          <h1 className="text-left md:text-[40px] font-semibold text-darkblue leading-normal py-4 w-[75%]">
             Why Swift UI Should Be on the Radar of Every Mobile Developer
           </h1>
-          <p className="text-[#696984] leading-relaxed tracking-wider pb-5 w-[75%]">
+          <p className="text-[#696984] leading-relaxed tracking-wider pb-5 w-[75%] text-lg">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempos Lorem ipsum dolor sitamet, consectetur adipiscing
             elit, sed do eiusmod tempor

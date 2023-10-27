@@ -16,7 +16,7 @@ const Header = () => {
           />
         </div>
         <div className="flex gap-20 items-center">
-          <ul className="flex gap-10 items-center font-normal cursor-pointer">
+          <ul className="flex text-[18px] gap-10 items-center font-normal cursor-pointer">
             <li>
               <Link href={"/"}>Home</Link>
             </li>

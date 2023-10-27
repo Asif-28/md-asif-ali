@@ -17,13 +17,13 @@ const BlogDetailsHero = () => {
           <h1 className="text-left text-4xl font-semibold text-darkblue leading-normal">
             Why Swift UI Should Be on the Radar of Every Mobile Developer
           </h1>
-          <p className="py-6 tracking-wider">
+          <p className="py-6 md:text-lg tracking-wider">
             TOTC is a platform that allows educators to create online classes
             whereby they can store the course materials online; manage
             assignments, quizzes and exams; monitor due dates; grade results and
             provide students with feedback all in one place.
           </p>
-          <p className="pb-6 tracking-wider">
+          <p className="pb-6 md:text-lg tracking-wider">
             TOTC is a platform that allows educators to create online classes
             whereby they can store the course materials online; manage
             assignments, quizzes and exams; monitor due dates; grade results and
@@ -33,7 +33,7 @@ const BlogDetailsHero = () => {
             exams; monitor due dates; grade results and provide students with
             feedback all in one place. TOTC is a platform
           </p>
-          <p className="pb-6 tracking-wider">
+          <p className="pb-6 md:text-lg tracking-wider">
             TOTC is a platform that allows educators to create online classes
             whereby they can store the course materials online; manage
             assignments, quizzes and exams; monitor due dates; grade results and
